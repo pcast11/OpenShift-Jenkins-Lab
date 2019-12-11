@@ -1,8 +1,8 @@
 def appName = "birthday-paradox"
 def replicas = "1"
-def devProject = pcast11-dev
-def testProject = pcast11-test
-def prodProject = pcast11-prod
+def devProject = "pcast11-dev"
+def testProject = "pcast11-test"
+def prodProject = "pcast11-prod"
 
 def skopeoToken
 def imageTag
